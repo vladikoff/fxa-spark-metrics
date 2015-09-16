@@ -1,9 +1,6 @@
 import com.github.nscala_time.time.Imports._
-
 import org.apache.spark.{SparkContext,SparkConf}
-
 import com.datastax.spark.connector._
-import org.joda.time.DateTime
 
 object DataMigration {
 
